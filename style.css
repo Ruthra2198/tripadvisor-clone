@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__s1 img {
+  width: 200px;
+  padding: 20px;
+}
+
+.header__s2 {
+  display: flex;
+  gap: 20px;
+  font-weight: bolder;
+
+}
+
+#forum:hover {
+  text-decoration: underline;
+}
+
+/*.header__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+}*/
+
+.header__s3 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+}
+
+.header__s3 button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 70px;
+  padding: 10px;
+
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.links h3 {
+  padding: 10px;
+}
+
+.search {
+
+  padding: 10px;
+  border: solid gray 1px;
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  margin-left: 320px;
+}
+
+.search__s1 {
+  display: flex;
+  gap: 10px;
+}
+
+.search input {
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+ width:100%;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search button {
+  background-color: #84E9BD;
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 600px;
+  margin-top: 20px;
+
+}
+
+.main-image img {
+
+  width: 1150px;
+  border-radius: 10px;
+}
+
+.main-image-desc {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+
+}
+
+.main-image-desc p {
+  font-size: 20px;
+}
+
+#content {
+  display: inline-block;
+  border: solid white 1px;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  padding: 10px;
+  margin: 20px;
+
+}
+
+.content-image {
+  padding: 60px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.recommended {
+  padding: 60px;
+}
+
+.recommended__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  width: 300px;
+}
+
+.course-card img {
+  width: 100%;
+  height: 60%;
+  border-radius: 20px;
+}
+
+.footer {
+  padding: 5px;
+}
+
+.footer__one {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__one p {
+  margin: 20px;
+}
+
+.footer__two {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+
+}
