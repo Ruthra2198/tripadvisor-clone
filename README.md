@@ -21,6 +21,6 @@ To view the project locally:
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/tripadvisor-clone.git
+   git clone https://ruthra2198.github.io/tripadvisor-clone/
    ```
 2. Open the `index.html` file in your browser.
